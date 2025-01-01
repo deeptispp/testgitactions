@@ -8,6 +8,10 @@ on:
   push:
     branches: [ "main" ]
 
+  issues:
+   type: opened, closed
+  
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
